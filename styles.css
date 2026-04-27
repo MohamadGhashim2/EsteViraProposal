@@ -486,8 +486,23 @@ h3 {
 }
 
 .optional-service-card strong {
+  display: block;
+  margin-bottom: 10px;
   color: var(--teal);
   font-size: 1.08rem;
+}
+
+.optional-service-card p {
+  line-height: 1.7;
+}
+
+.social-grid {
+  gap: 18px;
+}
+
+.compact-note {
+  margin-top: 0;
+  margin-bottom: 22px;
 }
 
 .later-list {
@@ -676,6 +691,22 @@ h3 {
 
   .optional-service-card {
     min-height: auto;
-    padding: 5mm;
+    padding: 4mm;
+  }
+
+  .optional-service-card h3 {
+    margin-bottom: 2mm;
+  }
+
+  .optional-service-card strong {
+    margin-bottom: 2mm;
+  }
+
+  .optional-service-card p {
+    line-height: 1.45;
+  }
+
+  .social-grid {
+    gap: 4mm;
   }
 }
