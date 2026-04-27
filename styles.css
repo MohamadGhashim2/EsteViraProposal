@@ -51,7 +51,7 @@ body {
     linear-gradient(315deg, rgba(197, 155, 69, 0.10), transparent 38%),
     var(--paper);
   border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 6px;
   box-shadow: 0 18px 45px rgba(16, 41, 59, 0.10);
   break-inside: avoid;
   page-break-inside: avoid;
@@ -110,7 +110,7 @@ body {
 .document-label {
   padding: 8px 14px;
   border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 999px;
+  border-radius: 4px;
   color: rgba(255, 255, 255, 0.88);
   font-size: 0.9rem;
   white-space: nowrap;
@@ -154,7 +154,7 @@ h1 {
   min-height: 122px;
   padding: 18px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 10px;
+  border-radius: 4px;
   background: rgba(255, 255, 255, 0.07);
 }
 
@@ -176,7 +176,7 @@ h1 {
   border-inline-start: 4px solid var(--gold);
   background: rgba(255, 255, 255, 0.08);
   color: rgba(255, 255, 255, 0.88);
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: 1.02rem;
 }
 
@@ -223,7 +223,7 @@ h1 {
 .pricing-note,
 .recommendation-box {
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 4px;
   background: rgba(255, 255, 255, 0.72);
   break-inside: avoid;
   page-break-inside: avoid;
@@ -239,7 +239,7 @@ h1 {
   width: 34px;
   height: 34px;
   margin-bottom: 12px;
-  border-radius: 50%;
+  border-radius: 4px;
   background: var(--teal);
   color: var(--white);
   font-weight: 700;
@@ -342,7 +342,7 @@ h1 {
   top: 0.72em;
   width: 8px;
   height: 8px;
-  border-radius: 50%;
+  border-radius: 2px;
   background: var(--cyan);
 }
 
@@ -379,7 +379,7 @@ h1 {
   align-self: flex-start;
   margin-bottom: 12px;
   padding: 6px 12px;
-  border-radius: 999px;
+  border-radius: 4px;
   background: var(--gold);
   color: var(--navy);
   font-size: 0.82rem;
@@ -418,7 +418,7 @@ h1 {
   gap: 10px 24px;
   padding: 22px;
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 4px;
   background: rgba(255, 255, 255, 0.72);
 }
 
@@ -430,7 +430,7 @@ h1 {
 .service-row {
   padding: 17px 18px;
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 4px;
   background: rgba(255, 255, 255, 0.72);
   break-inside: avoid;
   page-break-inside: avoid;
@@ -576,8 +576,8 @@ h1 {
 
   body {
     margin: 0;
-    font-size: 10pt;
-    line-height: 1.5;
+    font-size: 9.35pt;
+    line-height: 1.42;
   }
 
   .proposal {
@@ -588,7 +588,7 @@ h1 {
 
   .sheet {
     margin: 0;
-    padding: 5mm 0;
+    padding: 3.5mm 0;
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -614,30 +614,25 @@ h1 {
     break-before: page;
   }
 
-  .optional {
-    page-break-before: always;
-    break-before: page;
-  }
-
   .sheet::before {
     display: none;
   }
 
   h1 {
-    font-size: 31pt;
+    font-size: 29pt;
   }
 
   .subtitle {
-    font-size: 12.2pt;
+    font-size: 11.5pt;
   }
 
   .section-heading h2 {
-    font-size: 15.5pt;
+    font-size: 14pt;
   }
 
   .lead {
-    margin-bottom: 10px;
-    font-size: 10pt;
+    margin-bottom: 8px;
+    font-size: 9.35pt;
   }
 
   .cover-grid {
@@ -687,11 +682,11 @@ h1 {
   .definition-card,
   .problem-card,
   .price-card {
-    padding: 10px;
+    padding: 8px;
   }
 
   .price {
-    font-size: 17pt;
+    font-size: 15.5pt;
   }
 
   .plan-description {
@@ -701,20 +696,20 @@ h1 {
   .check-list li,
   .exclusion-grid li,
   .terms-list li {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .service-row {
-    padding: 9px 11px;
+    padding: 7px 9px;
   }
 
   .later-card {
-    padding: 9px;
+    padding: 7px;
   }
 
   .final-section {
-    margin-top: 4mm;
-    padding: 9mm;
+    margin-top: 2mm;
+    padding: 7mm;
     page-break-inside: avoid;
     break-inside: avoid;
     background:
