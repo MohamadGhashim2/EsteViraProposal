@@ -329,6 +329,36 @@ h3 {
   color: var(--teal);
 }
 
+.search-evidence-card {
+  margin: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--panel);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.search-evidence-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(16, 41, 59, 0.12);
+  border-radius: 4px;
+  background: var(--white);
+}
+
+.search-evidence-card figcaption {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.ai-evidence-card {
+  margin-top: 28px;
+}
+
 .note-box {
   margin-top: 28px;
   padding: 22px 26px;
@@ -686,6 +716,7 @@ h3 {
 
   .feature-card,
   .problem-solution-card,
+  .search-evidence-card,
   .timeline-card,
   .definition-card,
   .example-card,
